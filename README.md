@@ -1,12 +1,14 @@
 # 介绍
 基于[Ciphertalk](https://github.com/ILoveBingLu/CipherTalk)读取聊天信息并且通过Ciphertalk的Http Api功能持续检测新消息,发送系统通知
 
+powershell分支由deepseek生成,不做任何运行效果保证,不受理任何issue
+
 ## 快速开始
 - 安装[微信](https://pc.weixin.qq.com)
 - 安装[Ciphertalk](https://github.com/ILoveBingLu/CipherTalk)
 - 打开Ciphertalk并且进行初始配置
 - 前往开放接口栏,打开HTTP API,删掉访问密钥,监听模式为仅本机,监听端口为5031,然后保存并应用
-- 前往[Releases](https://github.com/Gaobai-awa/WeChat-Notifier/releases)下载最新的exe软件
+- 下载项目的那个.ps1文件
 - 初次启动
 - 在配置文件(config.json)里修改需要监听的用户的原始id(可以去ciphertalk的聊天查看里找到你要监听的人,然后点右上角会话详细,找到会话id那一栏复制)
 - 启动
